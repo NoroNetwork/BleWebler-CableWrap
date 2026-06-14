@@ -5,6 +5,9 @@
 > This is a personal fork of the original [BleWebler by josb25](https://github.com/josb25/BleWebler),
 > adding a dedicated **Cable Wrap** label mode. All BLE printing, the editor, QR codes, and dithering
 > come from the upstream project (GPLv3) — see [Credits](#credits--third-party-libraries).
+>
+> 📱 **Native iOS app:** a SwiftUI + CoreBluetooth version lives in [`ios/`](ios/README.md)
+> (iOS Safari can't do Web Bluetooth, so the app uses CoreBluetooth directly).
 
 ---
 

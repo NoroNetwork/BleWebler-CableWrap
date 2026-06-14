@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13678602288522427B2B5DA1 /* QRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E00FADBD8FB139300B2A0 /* QRGenerator.swift */; };
+		16A63A5EE662828BC645F193 /* LabelRasterizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876216E1100BBE0E98FAED9 /* LabelRasterizer.swift */; };
+		4EC7597B93F77BEB5F57E159 /* PaperSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698F718BB097EB5DE0C40FE /* PaperSettingsView.swift */; };
+		6E28902F4F1336EF20DD2AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2FE8034215FBE0FE7F8B00 /* Assets.xcassets */; };
+		9115B559EA2A9C742F7AAD34 /* PrinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A766338DFDAB7586502EF0E /* PrinterView.swift */; };
+		9D572627E826F6623B147961 /* LabelContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C12CF6FA404C83F8317330 /* LabelContentView.swift */; };
+		B6E0F12A885C3F2CE18D1104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6795816458DA1FB7E7C8C /* ContentView.swift */; };
+		C035C6832A03A20D7A5D2EEE /* PrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F12EFF5440F8E3F4B63D40 /* PrinterManager.swift */; };
+		C1B41534AA96232CCD3DDCF9 /* LabelDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33893197F1EFF033523390BC /* LabelDocument.swift */; };
+		CD59F05968F942492508340B /* BleWeblerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CCB82980118F9990B70DAC /* BleWeblerApp.swift */; };
+		DF715F1913B1BDBE9A1A0488 /* SupportedPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31EFC2DFA035A73BB357041 /* SupportedPrinter.swift */; };
+		E937469CE57F459DCF640FB7 /* MarklifeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A649A2C0A4C9E1A4A93B91B9 /* MarklifeProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A766338DFDAB7586502EF0E /* PrinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterView.swift; sourceTree = "<group>"; };
+		2C2FE8034215FBE0FE7F8B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33893197F1EFF033523390BC /* LabelDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDocument.swift; sourceTree = "<group>"; };
+		36CCB82980118F9990B70DAC /* BleWeblerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleWeblerApp.swift; sourceTree = "<group>"; };
+		3E3E00FADBD8FB139300B2A0 /* QRGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRGenerator.swift; sourceTree = "<group>"; };
+		4876216E1100BBE0E98FAED9 /* LabelRasterizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelRasterizer.swift; sourceTree = "<group>"; };
+		A1B87BDBA949965B5281426C /* BleWebler.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BleWebler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A649A2C0A4C9E1A4A93B91B9 /* MarklifeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarklifeProtocol.swift; sourceTree = "<group>"; };
+		A698F718BB097EB5DE0C40FE /* PaperSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperSettingsView.swift; sourceTree = "<group>"; };
+		A7F12EFF5440F8E3F4B63D40 /* PrinterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterManager.swift; sourceTree = "<group>"; };
+		B2C12CF6FA404C83F8317330 /* LabelContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelContentView.swift; sourceTree = "<group>"; };
+		B31EFC2DFA035A73BB357041 /* SupportedPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedPrinter.swift; sourceTree = "<group>"; };
+		D3E50321B95B46C56A5E59D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAF6795816458DA1FB7E7C8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01BBEFC2CFF515E5A44F1B95 /* BleWebler */ = {
+			isa = PBXGroup;
+			children = (
+				2C2FE8034215FBE0FE7F8B00 /* Assets.xcassets */,
+				36CCB82980118F9990B70DAC /* BleWeblerApp.swift */,
+				D3E50321B95B46C56A5E59D8 /* Info.plist */,
+				B77973245E5716F481D0EB02 /* Bluetooth */,
+				102BF083DD55D15330F6E3A6 /* Models */,
+				AFC0461EAD0AA6FD75E36657 /* Rendering */,
+				32D1F731E40069CAAB40796A /* Views */,
+			);
+			path = BleWebler;
+			sourceTree = "<group>";
+		};
+		102BF083DD55D15330F6E3A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33893197F1EFF033523390BC /* LabelDocument.swift */,
+				B31EFC2DFA035A73BB357041 /* SupportedPrinter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32D1F731E40069CAAB40796A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6795816458DA1FB7E7C8C /* ContentView.swift */,
+				A698F718BB097EB5DE0C40FE /* PaperSettingsView.swift */,
+				2A766338DFDAB7586502EF0E /* PrinterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		594CE847D15971727F52BBA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B87BDBA949965B5281426C /* BleWebler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC0461EAD0AA6FD75E36657 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				B2C12CF6FA404C83F8317330 /* LabelContentView.swift */,
+				4876216E1100BBE0E98FAED9 /* LabelRasterizer.swift */,
+				3E3E00FADBD8FB139300B2A0 /* QRGenerator.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		B77973245E5716F481D0EB02 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				A649A2C0A4C9E1A4A93B91B9 /* MarklifeProtocol.swift */,
+				A7F12EFF5440F8E3F4B63D40 /* PrinterManager.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		F3E12C06CAD07FB08D3AA778 = {
+			isa = PBXGroup;
+			children = (
+				01BBEFC2CFF515E5A44F1B95 /* BleWebler */,
+				594CE847D15971727F52BBA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FDA4DDBAED20760166B1B5B /* BleWebler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6C8535150A6A5AC8D10D13 /* Build configuration list for PBXNativeTarget "BleWebler" */;
+			buildPhases = (
+				2D27156108169338C42ECC2F /* Sources */,
+				AE27BAA9953B50D0B576926B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleWebler;
+			packageProductDependencies = (
+			);
+			productName = BleWebler;
+			productReference = A1B87BDBA949965B5281426C /* BleWebler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E623214B0D9DE201BDF32AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5FDA4DDBAED20760166B1B5B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B8895BB81FB433168838A45C /* Build configuration list for PBXProject "BleWebler" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F3E12C06CAD07FB08D3AA778;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 594CE847D15971727F52BBA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FDA4DDBAED20760166B1B5B /* BleWebler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE27BAA9953B50D0B576926B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E28902F4F1336EF20DD2AD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D27156108169338C42ECC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD59F05968F942492508340B /* BleWeblerApp.swift in Sources */,
+				B6E0F12A885C3F2CE18D1104 /* ContentView.swift in Sources */,
+				9D572627E826F6623B147961 /* LabelContentView.swift in Sources */,
+				C1B41534AA96232CCD3DDCF9 /* LabelDocument.swift in Sources */,
+				16A63A5EE662828BC645F193 /* LabelRasterizer.swift in Sources */,
+				E937469CE57F459DCF640FB7 /* MarklifeProtocol.swift in Sources */,
+				4EC7597B93F77BEB5F57E159 /* PaperSettingsView.swift in Sources */,
+				C035C6832A03A20D7A5D2EEE /* PrinterManager.swift in Sources */,
+				9115B559EA2A9C742F7AAD34 /* PrinterView.swift in Sources */,
+				13678602288522427B2B5DA1 /* QRGenerator.swift in Sources */,
+				DF715F1913B1BDBE9A1A0488 /* SupportedPrinter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4201B5CC377D8D1071530A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4212A81FEE6857FB0AAFE568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BleWebler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noronetwork.blewebler;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44BFFB73A9189167686171ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BleWebler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.noronetwork.blewebler;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8765B510D08C3561A279665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6C8535150A6A5AC8D10D13 /* Build configuration list for PBXNativeTarget "BleWebler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4212A81FEE6857FB0AAFE568 /* Debug */,
+				44BFFB73A9189167686171ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8895BB81FB433168838A45C /* Build configuration list for PBXProject "BleWebler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8765B510D08C3561A279665 /* Debug */,
+				4201B5CC377D8D1071530A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E623214B0D9DE201BDF32AF1 /* Project object */;
+}
